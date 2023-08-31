@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+#image-container {
+  position: relative;
+  width: 70vw;
+  height: 70vw;
+  margin: auto;
+  background-size: 100%;
+  background-image: url(analog-watch.jpg);
+  background-repeat: no-repeat;
+}
+
+#hour-hand, #minute-hand, #second-hand {
+  position: absolute;
+  background-color: black;
+  border-radius: 4px;
+  opacity: 0.8;
+  transform-origin: bottom center;
+}
+
+#hour-hand {
+  width: 2vw;
+  height: 18vw;
+  top: 25%;
+  left: 47.8%;
+}
+
+#minute-hand {
+  width: 1.5vw;
+  height: 22vw;
+  top: 19%;
+  left: 48.1%;
+}
+
+#second-hand {
+  width: 1vw;
+  height: 26vw;
+  top: 13.5%;
+  left: 48.4%;
+  
+}
+
+.digital {
+  font-weight: bold;
+  color: #FFFFFF;
+  width: 150px;
+  margin: auto;
+  font-size: 46px;
+  text-shadow: 0px 0px 8px rgba(0, 185, 255, 0.89);
+}
